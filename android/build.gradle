@@ -168,6 +168,8 @@ android {
 
             if (!isNewArchitectureEnabled()) {
                 srcDirs += 'src/paper/java'
+            } else {
+                srcDirs += 'build/generated/source/codegen/java'
             }
         }
     }
